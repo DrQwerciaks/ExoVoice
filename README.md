@@ -1,3 +1,6 @@
+![logoExoVoicebg](https://github.com/DrQwerciaks/ExoVoice/assets/77661984/bfa3fdda-8228-4da6-9616-25476958facc)
+
+
 # ExoVoice
 
 ExoVoice to nowoczesna i bogata w funkcje aplikacja do komunikacji głosowej, która umożliwia płynne połączenie z przyjaciółmi w czasie rzeczywistym. Bez względu na to, czy grasz, współpracujesz nad projektem, czy po prostu rozmawiasz, ExoVoice oferuje dynamiczną platformę komunikacyjną.
