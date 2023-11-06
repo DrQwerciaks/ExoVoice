@@ -31,7 +31,7 @@ def browse_file():
 
 if __name__ == "__main__":
     server_host = "127.0.0.1" #Podaj adres IP host ( na które ma iść pliki)
-    server_port = 12345
+    server_port = 12345 #nasłuchiwanie portów
 
     root = tk.Tk()
     root.title("Przesyłanie plików")

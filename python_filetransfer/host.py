@@ -38,6 +38,6 @@ def receive_file(port):
         server_socket.close()
 
 if __name__ == "__main__":
-    listen_port = 12345
+    listen_port = 12345 #nasłuchiwanie portów
 
     receive_file(listen_port)
