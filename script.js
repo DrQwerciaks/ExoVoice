@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error('Error accessing microphone:', error);
             });
 
-        // Tu umieść kod do rozpoczęcia komunikacji głosowej
+        
     }
 
     function joinCall(offer) {
@@ -52,6 +52,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error('Error accessing microphone:', error);
             });
 
-        // Tu umieść kod do dołączenia do komunikacji głosowej
+       
     }
 });
