@@ -1,3 +1,15 @@
+Projekt VoiceChat Python to przykład prostego systemu komunikacji głosowej między klientami za pomocą gniazd sieciowych. Ten projekt demonstrowany jest w języku Python i używa podstawowych bibliotek do komunikacji sieciowej.
+
+## Funkcje
+
+- Serwer (host) nasłuchuje na określonym porcie i obsługuje połączenia od klientów.
+- Klienci łączą się z serwerem za pomocą adresu IP i portu serwera.
+- Klienci mogą wysyłać i odbierać wiadomości tekstowe.
+- Projekt może być rozwijany, aby obsługiwać bardziej zaawansowaną komunikację audio i video.
+
+
+
+
 # Prosty przykład komunikacji między klientami w Pythonie
 
 Ten prosty przykład pokazuje, jak można stworzyć dwóch klientów w języku Python, z których jeden działa jako serwer (host), a drugi jako klient, który łączy się z serwerem, aby komunikować się między sobą.
