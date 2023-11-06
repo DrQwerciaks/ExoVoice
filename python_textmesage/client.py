@@ -4,6 +4,8 @@ import socket
 HOST = '127.0.0.1'  # Adres hosta serwera
 PORT_RANGE = range(1, 11)  # Zakres portów od 1 do 10
 
+nick = input("Podaj swój nick: ")
+
 connected = False
 for PORT in PORT_RANGE:
     try:
@@ -11,8 +13,8 @@ for PORT in PORT_RANGE:
             client_socket.connect((HOST, PORT))
             connected = True
             while True:
-                message = input("Wpisz wiadomość: ")
-                client_socket.sendall(message.encode())
+                message = input(f"{nick} napisał: ")
+                client_socket.sendall(f"{nick}: {message}".encode())
     except ConnectionRefusedError:
         print(f"Nie można połączyć się z portem {PORT}. Próbuję kolejny port...")
     except Exception as e:
